@@ -67,6 +67,11 @@ h1 {
     color: var(--light-text-color);
     font-size: 1.2rem;
     font-weight: 400;
+    display: inline-block;
+    border-right: 2px solid var(--primary-color);
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 0.5rem;
 }
 
 main {
